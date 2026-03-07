@@ -1,0 +1,25 @@
+# --- Directorios de Compilación ---
+build/
+bin/
+out/
+.gradle/
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# --- Reportes de Serenity (Se generan localmente) ---
+target/
+test-results/
+aggregate-results/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Otros ---
+.log
+*.swp

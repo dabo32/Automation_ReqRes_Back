@@ -1,0 +1,1 @@
+rootProject.name = "Automation_ReqRes_Back"
