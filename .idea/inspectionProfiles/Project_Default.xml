@@ -6,5 +6,32 @@
       <option name="processLiterals" value="true" />
       <option name="processComments" value="true" />
     </inspection_tool>
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="Automation_ReqRes_Back" />
+          <option value="Automation_ReqRes_Back" />
+          <option value="Automation_ReqRes_Back" />
+          <option value="Automation_ReqRes_Back" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="com.fasterxml.jackson.core:jackson-core:2.18.1" />
+          <option value="org.assertj:assertj-core:3.26.3" />
+          <option value="org.apache.commons:commons-lang3:3.17.0" />
+          <option value="commons-beanutils:commons-beanutils:1.9.4" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
   </profile>
 </component>
