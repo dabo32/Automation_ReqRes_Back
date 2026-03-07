@@ -27,7 +27,7 @@ El proyecto sigue el patrón **Screenplay**, el cual mejora la legibilidad y el 
 ## 🔒 Seguridad y Configuración Dinámica
 Se implementó un filtro global en `UserManagementStepDefinitions.java` que asegura que **todas** las peticiones incluyan el header requerido:
 * **Header:** `x-api-key`.
-* **Configuración:** Los valores de la API Key y el nombre del Header son parametrizables desde el archivo `serenity.conf`.
+* **Configuración:** Los valores de la API Key y el nombre del Header son parametrizables desde el archivo `src/test/resources/serenity.conf`.
 
 > **Nota:** Dado que ReqRes es una API pública que puede rechazar API Keys personalizadas, se implementaron aserciones flexibles (`anyOf`) para validar tanto el éxito funcional (201, 204, 200) como la respuesta de seguridad (403 Forbidden), garantizando la resiliencia de la suite.
 
